@@ -20,7 +20,7 @@ public class DAYOne {
 		StringBuilder append = s1.append(s);
 		StringBuilder reverse = append.reverse();
 
-		System.out.println(append);
+		System.out.println(reverse);
 	}
 
 	private void tc3() {
@@ -32,7 +32,6 @@ public class DAYOne {
 		System.out.println(reverse);
 
 	}
-
 	private void tc4() {
 		String s = "racecar123@#$%^gfdggfgfg";
 		String temp = "";
@@ -78,6 +77,6 @@ public class DAYOne {
 	}
 
 	public static void main(String[] args) {
-		
+
 	}
 }

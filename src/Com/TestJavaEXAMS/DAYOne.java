@@ -20,16 +20,25 @@ public class DAYOne {
 		StringBuilder append = s1.append(s);
 		StringBuilder reverse = append.reverse();
 
-		System.out.println(append);
+		System.out.println(reverse);
 	}
 
 	public static void main(String[] args) {
-		String s = "StringBuffer";
-		StringBuilder s1 = new StringBuilder();
-		StringBuilder append = s1.append(s);
-		StringBuilder reverse = append.reverse();
+		String s3 = "madam";
+		char[] charArray = s3.toCharArray();
+		int length = charArray.length;
+		String temp = "";
+		String s4 = s3;
+		for (int i = length - 1; i >= 0; i--) {
+			char charAt = s3.charAt(i);
+			temp += charAt;
 
-		System.out.println(reverse);
-
+		}
+		System.out.println(temp);
+		if (s3.equals(temp)) {
+			System.out.println("Palindrome");
+		} else {
+			System.out.println("Not Palindrome");
+		}
 	}
 }

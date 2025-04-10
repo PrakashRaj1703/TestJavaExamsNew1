@@ -75,6 +75,15 @@ public class DAYOne {
 		System.out.println("Number is " + "\n" + s2);
 		System.out.println("Special Char is :" + "\n" + s3);
 	}
+	private void tc12() {
+
+		String s = "StringBuffer";
+		StringBuilder s1 = new StringBuilder();
+		StringBuilder append = s1.append(s);
+		StringBuilder reverse = append.reverse();
+
+		System.out.println(reverse);
+	}
 
 	public static void main(String[] args) {
 

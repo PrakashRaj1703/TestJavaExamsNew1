@@ -23,25 +23,9 @@ public class DAYOne {
 		System.out.println(reverse);
 	}
 
-	private void tc3() {
-		String s = "StringBuffer";
-		StringBuilder s1 = new StringBuilder();
-		StringBuilder append = s1.append(s);
-		StringBuilder reverse = append.reverse();
 
-		System.out.println(reverse);
-
-	}
 	
-	private void tc11() {
 
-		String s = "StringBuffer";
-		StringBuilder s1 = new StringBuilder();
-		StringBuilder append = s1.append(s);
-		StringBuilder reverse = append.reverse();
-
-		System.out.println(reverse);
-	}
 
 	public static void main(String[] args) {
 
